@@ -1,17 +1,26 @@
-# steamlg
-Steam Launcher Generator for Linux
+# steamlg - Steam Launcher Generator for Linux
 
 I did this simple bash script to workaround Steam bug (https://github.com/ValveSoftware/steam-for-linux/issues/5012). Short bug description is "Steam won't create my game icons/launchers!". It has everything you need - making launchers and importing external icons (due to another, related bug: "Launcher icon is broken!").
+
+## Help
 
 There's internal help (```./steamlg.sh --help```) but for sure, there's second:
 
 Usage - ```./steamlg.sh [--help] nameOfLauncher gameID [icon.png]```
 
-Where gameID is SteamID of your game. You can find one here - https://steamdb.info/.
+Where ```gameID``` is SteamID of your game. You can find one here - https://steamdb.info/.
 
-Optional - icon.png is path to icon. If your launcher icon is broken, download it from internet and provide path to it (non-relative is better) as this argument.
+Optional - ```icon.png``` is path to icon. If your launcher icon is broken, download it from internet and provide path to it (non-relative is better) as this argument.
 
-Example use:
+## Files and dirs
+
+**steamlg.sh** is main script. You probably want only this.
+**icons**/ is directory with additional (typically broken) icons. If you want a new icon here, make an issue.
+**demo.png** is demonstration screenshot. It's gitignored.
+**LICENSE** is GPL license (what you need to know if you want to copy, edit or something).
+**README.md** is this file
+
+## Example use
 ```
 grzesiek11@debianek:~/Dokumenty/bash$ ./steamlg.sh
 Steam Launcher Generator v1.0 (C) Grzesiek11 2018
