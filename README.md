@@ -8,6 +8,7 @@ There's internal help (```./steamlg.sh --help```) but for sure, there's second:
 Usage - ```./steamlg.sh [--help] nameOfLauncher gameID [icon.png]```
 
 Where gameID is SteamID of your game. You can find one here - https://steamdb.info/.
+
 Optional - icon.png is path to icon. If your launcher icon is broken, download it from internet and provide path to it (non-relative is better) as this argument.
 
 Example use:
