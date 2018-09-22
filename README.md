@@ -33,3 +33,5 @@ grzesiek11@debianek:~/Dokumenty/bash$ mv *.desktop $HOME/Pulpit/
 grzesiek11@debianek:~/Dokumenty/bash$ 
 ```
 Here are icons!
+
+![demonstration](https://github.com/jedenastka/steamlg/blob/master/demo.png?raw=true)
